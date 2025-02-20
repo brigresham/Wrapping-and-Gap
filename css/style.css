@@ -1,0 +1,21 @@
+.child {
+   background-color: green; 
+   padding: 70px;
+}
+.child:nth-child(2){
+    background-color: pink;
+}
+.child:nth-child(4) {
+    background-color: pink;
+}
+.child:nth-child(6) {
+    background-color: pink;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    min-height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
